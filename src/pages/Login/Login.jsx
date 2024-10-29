@@ -39,7 +39,7 @@ const Login = () => {
       dispatch(signInStart());
 
       const res = await axios.post(
-        "https://noteappbackend-2.onrender.com/api/auth/signin",
+        "https://noteappbackend-3.onrender.com/api/auth/signin",
         { email, password },
         { withCredentials: true }
       );

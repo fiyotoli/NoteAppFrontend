@@ -36,7 +36,7 @@ const Signup = () => {
     // Sign up API
     try {
       const res = await axios.post(
-        "https://noteappbackend-2.onrender.com/api/auth/signup",
+        "https://noteappbackend-3.onrender.com/api/auth/signup",
         { username: name, email, password },
         { withCredentials: true }
       );

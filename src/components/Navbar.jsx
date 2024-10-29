@@ -34,7 +34,7 @@ const Navbar = ({ userInfo, onSearchNote, handleClearSearch }) => {
     try {
       dispatch(signoutStart());
 
-      const res = await axios.get("https://noteappbackend-2.onrender.com/api/auth/signout", {
+      const res = await axios.get("https://noteappbackend-3.onrender.com/api/auth/signout", {
         withCredentials: true,
       });
 
